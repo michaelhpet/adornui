@@ -1,10 +1,10 @@
-import { Button } from 'ui';
+import Button from 'ui/Button';
 
 export default function Docs() {
   return (
     <div>
       <h1>Adorn UI Docs</h1>
-      <Button />
+      <Button>Hello world</Button>
     </div>
   );
 }
