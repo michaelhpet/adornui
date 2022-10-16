@@ -1,3 +1,4 @@
+import ButtonProps from '../Button/ButtonProps';
 import Palette from './Palette';
 import Typography from './Typography';
 
@@ -10,5 +11,9 @@ export default interface Theme {
     h4: Typography;
     h5: Typography;
     h6: Typography;
+  };
+  components: {
+    Button: ButtonProps;
+    Input: {};
   };
 }
